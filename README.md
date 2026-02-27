@@ -95,18 +95,18 @@ Users input borrower characteristics via sliders, dropdowns, and text fields. Th
 
 2. **Create and activate a virtual environment (optional but recommended)**
    ```bash
-    python -m venv venv
-    source venv/bin/activate   # On Windows: venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 
 3. **Install dependencies**
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
 
 4. **Run the app locally**
    ```bash
-streamlit run app.py
+   streamlit run app.py
 ```
 ### Email Configuration (optional)
 To enable the email reminder feature, set the following environment variables or replace them directly in app.py (not recommended for production):
